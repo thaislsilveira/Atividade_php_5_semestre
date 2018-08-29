@@ -14,7 +14,7 @@ class ClienteView{
         $this->htmlFile = 'view/cliente_view.phtml';
     }
 
-    private function drawTop(){
+    private function drawHeader(){
         require_once 'view/header.phtml';
     }
 
