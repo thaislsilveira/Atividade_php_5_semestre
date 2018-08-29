@@ -24,7 +24,7 @@ class Request
 
 
             if ($class) {
-                $class = "app\\controller\\" . $class; //..acerta o caminho da classe.
+                $class = "controller\\" . $class; //..acerta o caminho da classe.
                 //..instancia um novo objeto da classe informada.
                 $object = new $class;
                     //..se o método existir no objeto, então...
